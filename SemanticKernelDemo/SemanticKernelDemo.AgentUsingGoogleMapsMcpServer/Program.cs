@@ -10,6 +10,7 @@ using SemanticKernelDemo.Common;
 
 var endpoint = Environment.GetEnvironmentVariable("OPENAI_ENDPOINT") ?? string.Empty;
 var key = Environment.GetEnvironmentVariable("OPENAI_KEY") ?? string.Empty;
+var googleApiKey = Environment.GetEnvironmentVariable("GOOGLE_KEY") ?? string.Empty;
 
 var builder = Kernel.CreateBuilder();
 builder.AddAzureOpenAIChatCompletion("gpt-4o", endpoint, key);
@@ -22,7 +23,7 @@ await using IMcpClient mcpClient = await McpClientFactory.CreateAsync(new StdioC
     Arguments = ["-y", "@modelcontextprotocol/server-google-maps"],
     EnvironmentVariables = new Dictionary<string, string>
     {
-        { "GOOGLE_MAPS_API_KEY", "AIzaSyD8kPcWTXTKd5mQ_FhsX6ROmYayK7csIL4" }
+        { "GOOGLE_MAPS_API_KEY", googleApiKey }
     }
 }));
 
