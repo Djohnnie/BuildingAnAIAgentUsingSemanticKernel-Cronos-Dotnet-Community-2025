@@ -14,11 +14,10 @@ var builder = Kernel.CreateBuilder();
 builder.AddAzureOpenAIChatCompletion("gpt-4o", endpoint, key);
 var kernel = builder.Build();
 
-await using IMcpClient mcpClient = await McpClientFactory.CreateAsync(new StdioClientTransport(new()
+await using IMcpClient mcpClient = await McpClientFactory.CreateAsync(new SseClientTransport(new()
 {
     Name = "Clock",
-    Command = "docker",
-    Arguments = ["run", "-i", "--rm", "djohnnie/clockmcp"]
+    Endpoint = new Uri("http://localhost:5264/sse")
 }));
 
 var tools = await mcpClient.ListToolsAsync();

@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.McpServe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.McpClient", "SemanticKernelDemo.McpClient\SemanticKernelDemo.McpClient.csproj", "{22997C0B-D29F-4D01-B497-5B7D59BF8ADB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.McpSseServer", "SemanticKernelDemo.McpSseServer\SemanticKernelDemo.McpSseServer.csproj", "{2FB62358-7840-4075-B44C-3090C515AA42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.McpSseClient", "SemanticKernelDemo.McpSseClient\SemanticKernelDemo.McpSseClient.csproj", "{AB268846-43B6-4A49-B755-D68131DA498B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +107,14 @@ Global
 		{22997C0B-D29F-4D01-B497-5B7D59BF8ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22997C0B-D29F-4D01-B497-5B7D59BF8ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22997C0B-D29F-4D01-B497-5B7D59BF8ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB62358-7840-4075-B44C-3090C515AA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB62358-7840-4075-B44C-3090C515AA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB62358-7840-4075-B44C-3090C515AA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB62358-7840-4075-B44C-3090C515AA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB268846-43B6-4A49-B755-D68131DA498B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB268846-43B6-4A49-B755-D68131DA498B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB268846-43B6-4A49-B755-D68131DA498B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB268846-43B6-4A49-B755-D68131DA498B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +132,8 @@ Global
 		{747AC8F5-54DD-40CA-BF51-4D5CFA1508EE} = {3CB7D14C-D373-4336-B05B-5C1A80C66308}
 		{1C7CF93E-49D3-42A6-87EC-31CCBA8DD0BF} = {28651D53-F174-4B25-A7A1-F99BB720AF25}
 		{22997C0B-D29F-4D01-B497-5B7D59BF8ADB} = {28651D53-F174-4B25-A7A1-F99BB720AF25}
+		{2FB62358-7840-4075-B44C-3090C515AA42} = {28651D53-F174-4B25-A7A1-F99BB720AF25}
+		{AB268846-43B6-4A49-B755-D68131DA498B} = {28651D53-F174-4B25-A7A1-F99BB720AF25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04329379-68B3-4D54-8788-8A6D89208BD7}
