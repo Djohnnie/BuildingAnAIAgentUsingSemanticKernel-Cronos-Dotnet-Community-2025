@@ -10,7 +10,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.SemanticKernel" Version="1.47.0" />
 		<PackageReference Include="Microsoft.SemanticKernel.Agents.Core" Version="1.47.0" />
-		<PackageReference Include="ModelContextProtocol" Version="0.1.0-preview.9" />
+		<PackageReference Include="ModelContextProtocol" Version="0.1.0-preview.10" />
 		<PackageReference Include="ModelContextProtocol-SemanticKernel" Version="0.0.1-preview-09" />
 	</ItemGroup>
 

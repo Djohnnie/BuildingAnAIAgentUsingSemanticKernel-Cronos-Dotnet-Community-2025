@@ -1,27 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.Chat", "SemanticKernelDemo.Chat\SemanticKernelDemo.Chat.csproj", "{21336E8C-CA04-4F0F-8149-E028126D3606}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Semantic Kernel Chat", "1. Semantic Kernel Chat", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Semantic Kernel Chat", "01. Semantic Kernel Chat", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Semantic Kernel Chat History", "2. Semantic Kernel Chat History", "{2DC96BB1-CE0D-42A2-A708-2270824C88BF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Semantic Kernel Chat History", "02. Semantic Kernel Chat History", "{2DC96BB1-CE0D-42A2-A708-2270824C88BF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Semantic Kernel Chat History with Persona", "3. Semantic Kernel Chat History with Persona", "{2BD83491-6F9C-49C3-A675-44DA009ED0C4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Semantic Kernel Chat History with Persona", "03. Semantic Kernel Chat History with Persona", "{2BD83491-6F9C-49C3-A675-44DA009ED0C4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Semantic Kernel Plugins and Functions", "4. Semantic Kernel Plugins and Functions", "{02E1B929-082C-4650-B1FD-F0A760EBB8A8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Semantic Kernel Plugins and Functions", "04. Semantic Kernel Plugins and Functions", "{02E1B929-082C-4650-B1FD-F0A760EBB8A8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Semantic Kernel Planners", "5. Semantic Kernel Planners", "{8A4A1340-5214-41A1-8774-65263EC2D14A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Semantic Kernel Planners", "05. Semantic Kernel Planners", "{8A4A1340-5214-41A1-8774-65263EC2D14A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Semantic Kernel Agent using Azure OpenAI", "6. Semantic Kernel Agent using Azure OpenAI", "{63AA3BAE-6E4D-4639-A345-1019C635B954}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Semantic Kernel Agent using Azure OpenAI", "06. Semantic Kernel Agent using Azure OpenAI", "{63AA3BAE-6E4D-4639-A345-1019C635B954}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Semantic Kernel Agent using Ollama", "7. Semantic Kernel Agent using Ollama", "{B6CA336F-C76F-4E8D-BDB1-07749ABB5B9C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Semantic Kernel Agent using Ollama", "07. Semantic Kernel Agent using Ollama", "{B6CA336F-C76F-4E8D-BDB1-07749ABB5B9C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Semantic Kernel MCP interacting with GitHub Server", "8. Semantic Kernel MCP interacting with GitHub Server", "{50DA026F-333D-438A-B026-7D13C14377B6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Semantic Kernel MCP interacting with GitHub Server", "08. Semantic Kernel MCP interacting with GitHub Server", "{50DA026F-333D-438A-B026-7D13C14377B6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. Semantic Kernel MCP interacting with Google Maps Server", "9. Semantic Kernel MCP interacting with Google Maps Server", "{5C62B9EF-EEBE-4FBA-B3A2-969202CB57B6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Semantic Kernel MCP interacting with Google Maps Server", "09. Semantic Kernel MCP interacting with Google Maps Server", "{5C62B9EF-EEBE-4FBA-B3A2-969202CB57B6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.ChatHistory", "SemanticKernelDemo.ChatHistory\SemanticKernelDemo.ChatHistory.csproj", "{5D5B7D47-4A2C-497E-B930-6CF95DF3F91E}"
 EndProject
@@ -39,9 +39,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.AgentUsi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.AgentUsingGoogleMapsMcpServer", "SemanticKernelDemo.AgentUsingGoogleMapsMcpServer\SemanticKernelDemo.AgentUsingGoogleMapsMcpServer.csproj", "{F04571CF-754E-4BB4-9804-4B4801A4D5EB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Common", "0. Common", "{3CB7D14C-D373-4336-B05B-5C1A80C66308}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Common", "00. Common", "{3CB7D14C-D373-4336-B05B-5C1A80C66308}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.Common", "SemanticKernelDemo.Common\SemanticKernelDemo.Common.csproj", "{747AC8F5-54DD-40CA-BF51-4D5CFA1508EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. MCP Server", "10. MCP Server", "{28651D53-F174-4B25-A7A1-F99BB720AF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.McpServer", "SemanticKernelDemo.McpServer\SemanticKernelDemo.McpServer.csproj", "{1C7CF93E-49D3-42A6-87EC-31CCBA8DD0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelDemo.McpClient", "SemanticKernelDemo.McpClient\SemanticKernelDemo.McpClient.csproj", "{22997C0B-D29F-4D01-B497-5B7D59BF8ADB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,14 @@ Global
 		{747AC8F5-54DD-40CA-BF51-4D5CFA1508EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{747AC8F5-54DD-40CA-BF51-4D5CFA1508EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{747AC8F5-54DD-40CA-BF51-4D5CFA1508EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7CF93E-49D3-42A6-87EC-31CCBA8DD0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7CF93E-49D3-42A6-87EC-31CCBA8DD0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7CF93E-49D3-42A6-87EC-31CCBA8DD0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7CF93E-49D3-42A6-87EC-31CCBA8DD0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22997C0B-D29F-4D01-B497-5B7D59BF8ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22997C0B-D29F-4D01-B497-5B7D59BF8ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22997C0B-D29F-4D01-B497-5B7D59BF8ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22997C0B-D29F-4D01-B497-5B7D59BF8ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +118,8 @@ Global
 		{47017EFE-216B-4D30-B1B2-FDB3ADDDAB1F} = {50DA026F-333D-438A-B026-7D13C14377B6}
 		{F04571CF-754E-4BB4-9804-4B4801A4D5EB} = {5C62B9EF-EEBE-4FBA-B3A2-969202CB57B6}
 		{747AC8F5-54DD-40CA-BF51-4D5CFA1508EE} = {3CB7D14C-D373-4336-B05B-5C1A80C66308}
+		{1C7CF93E-49D3-42A6-87EC-31CCBA8DD0BF} = {28651D53-F174-4B25-A7A1-F99BB720AF25}
+		{22997C0B-D29F-4D01-B497-5B7D59BF8ADB} = {28651D53-F174-4B25-A7A1-F99BB720AF25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04329379-68B3-4D54-8788-8A6D89208BD7}
